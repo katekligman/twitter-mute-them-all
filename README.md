@@ -8,7 +8,7 @@ Developed with Python. Supports Windows, OS X, and Linux.
 Installation
 ------------
 
-Pre-compiled binaries for Windows and OS X are available under releases.
+Pre-compiled binaries for Windows and OS X are available under [releases](https://github.com/katekligman/twitter-mute-them-all/releases/latest).
 
 Before you run this application you'll need to set environment variables for CONSUMER_KEY,
 CONSUMER_SECRET, ACCESS_TOKEN_KEY and ACCESS_TOKEN_SECRET.
