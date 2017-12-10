@@ -70,8 +70,10 @@ set ACCESS_TOKEN_SECRET=access_secret_from_above
 ```
 Now you are ready to run the program.
 
-Running from Source
--------------------
+You can download [releases for Windows, OS X, and Linux here](https://github.com/katekligman/twitter-mute-them-all/releases/latest).
+
+Running from Source (for developers)
+------------------------------------
 ```python
 pip -r requirements.txt
 python main.py
