@@ -17,15 +17,19 @@ A walkthrough on how to setup this environment follows.
 
 Environment Setup
 -----------------
+To run this program you will first need a Twitter developer account. As of late 2019 these
+accounts are free and easy to register for.
 
-In order to run this program, you'll need to get four account codes from twitter and set
-them in your environment. To get these four codes, you'll need to create a
-personal (private) twitter application. Note you won't be making a real app, it's
-just something Twitter requires.
+Go to https://developer.twitter.com/ and sign up for a personal / hobbyist account from the
+Twitter account you will use to run this program.
+
+Next, you'll need to get four account codes from twitter and set them in your environment. 
+To get these four codes, you'll need to create a personal (private) twitter application. 
+Note you won't be making a real app, it's just something Twitter requires.
 
 Here's how to do it:
 
-1. From a desktop browser sign into twitter, then go to https://apps.twitter.com/ and
+1. From a desktop browser sign into twitter, then go to https://developer.twitter.com/en/apps and
 click on the 'Create a new app' button in the upper right corner of the screen.
 
 2. Next, fill out the create an application form as follows:
@@ -44,9 +48,10 @@ If you get an error, try using:  <yourtwittername> - Mute them all
 3. You should now be in a settings area for the application.  Under
 Application Settings, click "manage keys and access tokens"
 
-4. Next, click on "Keys and Access Tokens" in the tabs area directly under the top heading.
+4. Next, click on "Keys and Tokens" in the tabs area directly under the top heading.
 
-5. Note your Consumer Key and Consumer Secret codes from the top table. These are the first two.
+5. Note your Consumer Key and Consumer Secret codes from the top table under
+Consumer API Keys. These are the first two keys.
 
 6. Now scroll down to the very bottom of the page and click on the
 'Create my access token' button.  Note your access token key and access token secret codes.
@@ -70,12 +75,12 @@ set ACCESS_TOKEN_SECRET=access_secret_from_above
 ```
 Now you are ready to run the program.
 
-You can download releases for [Windows and Mac here](https://github.com/katekligman/twitter-mute-them-all/releases/latest).
+You can download binary releases for [Windows and Mac here](https://github.com/katekligman/twitter-mute-them-all/releases/latest).  Be sure to run the binary in the same terminal/cmd prompt you set the environment for.
 
 Running from Source (for developers)
 ------------------------------------
 ```python
-pip -r requirements.txt
+pip install -r requirements.txt
 python main.py
 ```
 
