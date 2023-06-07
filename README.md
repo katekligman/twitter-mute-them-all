@@ -1,3 +1,5 @@
+Note:  This project is no longer supported.  As of 2023 Twitter charges for their API and I don't expect there to be any future releases.  I hope this project has been beneficial to your mental health and thank you for the kudos over the years.
+
 Twitter Mute Them All
 =====================
 
